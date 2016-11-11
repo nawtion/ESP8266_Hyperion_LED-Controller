@@ -1,12 +1,12 @@
 #ifndef Config_h
 #define Config_h
 
-#include "BaseHeader.h"
+#include "../../misc/BaseHeader.h"
 
 #include <EEPROM.h>
 
-#include "ConfigStatic.h"
-#include "ConfigStructures.h"
+#include "../static/ConfigStatic.h"
+#include "../dynamic/ConfigStructures.h"
 
 class Config {
   public:

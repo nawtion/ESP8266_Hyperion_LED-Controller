@@ -1,4 +1,4 @@
-#include "WrapperWebconfig.h"
+#include "config/web/WrapperWebconfig.h"
 
 void WrapperWebconfig::begin() {
   _server.onNotFound([&](){ WrapperWebconfig::handleNotFound(); });

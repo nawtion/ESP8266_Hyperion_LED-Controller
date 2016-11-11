@@ -3,7 +3,7 @@
 
 #include <Arduino.h>
 #include <Logging.h>
-#include "Config.h"
+#include "../config/dynamic/Config.h"
 
 #define min(a,b) ((a)<(b)?(a):(b))
 /*

@@ -1,9 +1,9 @@
 #ifndef WrapperWebconfig_h
 #define WrapperWebconfig_h
-#include "BaseHeader.h"
+#include "../../misc/BaseHeader.h"
 
 #include <ESP8266WebServer.h>
-#include "WrapperFastLed.h"
+#include "../../led/WrapperFastLed.h"
 #include <LinkedList.h>
 
 class SelectEntryBase {

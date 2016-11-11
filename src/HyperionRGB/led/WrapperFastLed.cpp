@@ -1,4 +1,4 @@
-#include "WrapperFastLed.h"
+#include "led/WrapperFastLed.h"
 
 void WrapperFastLed::begin() {
   #ifdef CONFIG_LED_CLOCKLESS_CHIPSET

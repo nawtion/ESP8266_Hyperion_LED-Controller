@@ -1,4 +1,4 @@
-#include "Config.h"
+#include "config/dynamic/Config.h"
 
 ConfigStruct Config::_cfgStruct;
 boolean Config::_cfgLoaded = false;

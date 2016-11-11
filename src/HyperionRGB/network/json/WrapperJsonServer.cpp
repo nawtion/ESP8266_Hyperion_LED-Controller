@@ -1,4 +1,4 @@
-#include "WrapperJsonServer.h"
+#include "network/json/WrapperJsonServer.h"
 
 WrapperJsonServer::WrapperJsonServer()
   : _tcpServer(0) {}

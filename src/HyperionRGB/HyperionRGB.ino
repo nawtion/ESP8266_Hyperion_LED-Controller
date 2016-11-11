@@ -1,19 +1,19 @@
 
 #include <Thread.h>
 #include <ThreadController.h>
-#include "BaseHeader.h"
+#include "misc/BaseHeader.h"
 
-#include "EnhancedThread.h"
+#include "misc/EnhancedThread.h"
 
-#include "LoggerInit.h"
+#include "misc/LoggerInit.h"
 
-#include "WrapperWiFi.h"
-#include "WrapperOTA.h"
-#include "WrapperFastLed.h"
-#include "WrapperUdpLed.h"
-#include "WrapperJsonServer.h"
+#include "network/wifi/WrapperWiFi.h"
+#include "network/ota/WrapperOTA.h"
+#include "led/WrapperFastLed.h"
+#include "network/udp/WrapperUdpLed.h"
+#include "network/json/WrapperJsonServer.h"
 
-#include "WrapperWebconfig.h"
+#include "config/web/WrapperWebconfig.h"
 
 #define LED D0 // LED in NodeMCU at pin GPIO16 (D0).
 int ledState = LOW;

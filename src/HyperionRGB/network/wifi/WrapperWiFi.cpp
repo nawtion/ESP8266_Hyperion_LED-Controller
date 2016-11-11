@@ -1,4 +1,4 @@
-#include "WrapperWiFi.h"
+#include "network/wifi/WrapperWiFi.h"
 
 WrapperWiFi::WrapperWiFi(const char* ssid, const char* password) {  
   _ssid = ssid;

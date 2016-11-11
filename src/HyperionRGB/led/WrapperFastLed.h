@@ -1,7 +1,7 @@
 #ifndef WrapperFastLed_h
 #define WrapperFastLed_h
 
-#include "BaseHeader.h"
+#include "../misc/BaseHeader.h"
 
 #define FASTLED_ESP8266_RAW_PIN_ORDER
 //#define FASTLED_ESP8266_NODEMCU_PIN_ORDER

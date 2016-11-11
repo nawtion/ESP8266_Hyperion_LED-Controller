@@ -1,4 +1,4 @@
-#include "EnhancedThread.h"
+#include "misc/EnhancedThread.h"
 
 void EnhancedThread::run() {
   Thread::run();

@@ -1,7 +1,7 @@
 #ifndef EnhancedThread_h
 #define EnhancedThread_h
 
-#include "BaseHeader.h"
+#include "../misc/BaseHeader.h"
 #include <Thread.h>
 
 class EnhancedThread: public Thread {

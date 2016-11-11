@@ -1,7 +1,7 @@
 #ifndef WrapperWiFi_h
 #define WrapperWiFi_h
 
-#include "BaseHeader.h"
+#include "../../misc/BaseHeader.h"
 #include <ESP8266WiFi.h>
 #include <ESP8266mDNS.h>
 
