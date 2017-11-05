@@ -48,7 +48,7 @@
 #define CONFIG_WIFI_PASSWORD "password"
 
 //#define CONFIG_WIFI_STATIC_IP 1
-//const byte CONFIG_WIFI_IP[] = {192, 168, 0, 100};
+//const byte CONFIG_WIFI_IP[] = {192, 168, 0, 123};
 //const byte CONFIG_WIFI_SUBNET[] = {255, 255, 255, 0};
 //const byte CONFIG_WIFI_DNS[] = {192, 168, 0, 1};
 
