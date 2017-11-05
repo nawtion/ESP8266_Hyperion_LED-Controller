@@ -17,13 +17,13 @@
 /*Main static configuration*/
 //This cannot be changed via web inteface
 
-#define CONFIG_LED_SPI_CHIPSET WS2801 //Comment out for clockless
-//#define CONFIG_LED_CLOCKLESS_CHIPSET WS2812B //Comment in for clockless
+//#define CONFIG_LED_SPI_CHIPSET WS2801 //Comment out for clockless
+#define CONFIG_LED_CLOCKLESS_CHIPSET WS2812 //Comment in for clockless
 //#define FASTLED_ALLOW_INTERRUPTS 0 //Comment in if clockless stripe (ex. WS2812B) is flickering
 //#define CONFIG_LED_PWM 1 //Comment in if PWM Stripe
 
-#define CONFIG_LED_DATAPIN D1 //Comment out for PWM
-#define CONFIG_LED_CLOCKPIN D2 //Comment out for clockless / PWM
+#define CONFIG_LED_DATAPIN D6 //Comment out for PWM
+//#define CONFIG_LED_CLOCKPIN D2 //Comment out for clockless / PWM
 //#define CONFIG_LED_PWM_RED D1 //Comment in for PWM
 //#define CONFIG_LED_PWM_GREEN D2 //Comment in for PWM
 //#define CONFIG_LED_PWM_BLUE D3 //Comment in for PWM
@@ -34,7 +34,7 @@
 //#define FASTLED_ESP8266_D1_PIN_ORDER
 
 #define CONFIG_LED_COLOR_ORDER RGB
-#define CONFIG_LED_COUNT 50
+#define CONFIG_LED_COUNT 24
 
 //OFF, HYPERION_UDP, STATIC_COLOR, RAINBOW, FIRE2012
 #define CONFIG_LED_STANDARD_MODE FIRE2012
