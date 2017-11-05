@@ -15,7 +15,7 @@
 
 #include "WrapperWebconfig.h"
 
-#define LED D0 // LED in NodeMCU at pin GPIO16 (D0).
+#define LED D6 // LED in NodeMCU at pin GPIO16 (D0).
 int ledState = LOW;
 
 LoggerInit loggerInit;
