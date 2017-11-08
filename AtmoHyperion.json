@@ -27,7 +27,7 @@
 		"port"     : 49692,
 		"numLeds"     : 24,
 		"orbIds"   : "1",
-		"colorOrder" : "rgb"
+		"colorOrder" : "grb"
 	},
 
 	/// Color manipulation configuration used to tune the output colors to specific surroundings. 
